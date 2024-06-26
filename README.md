@@ -281,7 +281,7 @@ The following inferences can be drawn from the dashboard;
 
 3.3) The third top-selling pizza is The Pepperoni Pizza.
        
-       thus, the top-selling pizza is The Classic Deluxe Pizza.
+       Thus, the top-selling pizza is The Classic Deluxe Pizza.
 
 ![Capture](https://github.com/Anshulpb02/dashboard-report-for-pizza-sales/assets/99670506/3ea20252-51e9-45ab-b6fc-834f68f8285d)
 
