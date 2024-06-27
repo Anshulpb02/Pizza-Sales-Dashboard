@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-This report provides a comprehensive overview of pizza sales performance. It helps the business understand customer preferences and optimize its pizza offerings. By analyzing sales data and customer feedback, the business can identify opportunities to enhance their product lineup and operational efficiency.
+This report provides a comprehensive overview of pizza sales performance. It helps the business understand customer preferences and optimize its pizza offerings. By analyzing sales data and customer feedback, the business can identify opportunities to enhance its product lineup and operational efficiency.
 
 With a total of 49,574 pizzas sold and a total revenue of $817.86k, the report highlights strong performance metrics. These figures enable the business to strategize effectively, aiming to further increase sales and revenue by refining their strategies and addressing operational insights provided in the report.
 
@@ -14,7 +14,7 @@ With a total of 49,574 pizzas sold and a total revenue of $817.86k, the report h
 - Step 1: Load data into Power BI Desktop, the dataset is a CSV file.
 - Step 2: Open the power query editor & in the view tab under the Data Preview section, and check the "column distribution", "column quality" & "column profile" options.
 - Step 3: Also since by default, the profile will be opened only for 1000 rows you need to select "column profiling based on entire dataset".
-- Step 4: It was observed that in none of the columns errors & different I were present except in the column named "Arrival Delay".
+- Step 4: It was observed that in some of the columns have errors.
 - Step 5: We use the Replacer command, Since the data contains various pizza sizes that are not standard pizza sizes thus to convert the different pizza sizes to standard pizza sizes we convert 
     
         "M" to "Medium" = Table.ReplaceValue(dbo_pizza_sales,"M","Medium",Replacer.ReplaceText,{"pizza_size"})
